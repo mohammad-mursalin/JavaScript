@@ -7,3 +7,7 @@ var addText = document.createTextNode("How are you guys");
 var myDiv = document.getElementById("my-div");
 
     myDiv.appendChild(addTag);
+
+var removeTag = document.getElementsByTagName("h1")[1];
+
+    myDiv.removeChild(removeTag);
