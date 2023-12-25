@@ -23,3 +23,5 @@ var Tag = document.getElementsByTagName("h1")[1];
     myDiv.insertBefore(addTag,Tag);
 
 myDiv.classList.add("my-class");
+
+myDiv.classList.remove("my-class");
