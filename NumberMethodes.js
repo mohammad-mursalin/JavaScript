@@ -14,6 +14,8 @@ name = parseInt(name);
 
 document.write(name);
 
+document.write(number(name)+3);
+
 var number = 2.34567;
 
 console.log(number.toFixed(3));  //toFix will show 3 digits after point and round figure
