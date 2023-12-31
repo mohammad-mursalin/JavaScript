@@ -35,7 +35,3 @@ num.sort(function(a,b)
 
 document.write(num);
 
-
-
-
-
